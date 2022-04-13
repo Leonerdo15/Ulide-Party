@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="d8h94rq9ds518t@ec2-3-248-121-12.eu-west-1.compute.amazonaws.com" uuid="5475c4ca-4aec-489d-b43d-7ee9193f43ad">
+    <data-source source="LOCAL" name="d8h94rq9ds518t@ec2-3-248-121-12.eu-west-1.compute.amazonaws.com" uuid="b49a6261-2a60-45b8-b579-67b2f925d6cb">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://ec2-3-248-121-12.eu-west-1.compute.amazonaws.com:5432/d8h94rq9ds518t</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="elephanteBD" uuid="5a3c6d2c-6e62-4c48-b502-209f6e3acb92">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://manny.db.elephantsql.com:5432/tlffvzty</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
