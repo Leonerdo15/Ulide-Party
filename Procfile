@@ -1,1 +1,1 @@
-web: node ./API/controller/UserController.js
+web: html testar.html
