@@ -1,20 +1,14 @@
 {
-  "name": "ulide_party",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "ulide-party",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node ./bin/www"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@faker-js/faker": "^6.1.2",
-    "express": "^4.17.3"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15",
-    "pg": "^8.7.3"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1"
   }
 }
