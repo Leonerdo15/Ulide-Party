@@ -10,7 +10,7 @@ app.listen(port, ()=>{
 
 client.connect();
 
-app.get('/api/users', (req, res)=>{
+app.get('/', (req, res)=>{
     client.query(`Select * from users`, (err, result)=>{
         if(!err){
             res.send(result.rows);
