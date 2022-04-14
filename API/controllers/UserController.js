@@ -4,7 +4,7 @@ const app = express();
 
 const connectionString = process.env.CONNECTION || 5000
 
-app.listen(connectionString, ()=>{
+app.listen(process.env.PORT || '3000', ()=>{
     console.log("Sever is now listening at port 5000");
 })
 
