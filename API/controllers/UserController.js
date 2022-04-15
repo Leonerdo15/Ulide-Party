@@ -11,7 +11,7 @@ app.listen(process.env.PORT || '3000', ()=>{
 client.connect();
 
 app.get('/api/users', (req, res)=>{
-    client.query(`Select * from users`, (err, result)=>{
+    client.query('Select * from users', (err, result)=>{
         if(!err){
             res.send(result.rows);
         }
